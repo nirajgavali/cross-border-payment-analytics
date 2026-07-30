@@ -42,4 +42,4 @@
   * **When** the fallback rail processes the request payload
   * **Then** the engine must attach the original `Idempotency-Key` to the API header
   * **And** if the partner bank receives a duplicate key within a 24-hour window, it must return the original transaction status instead of creating a new charge.
-Use code with caution.Once pasted, scroll down and click Commit changes....Your /requirements folder is now complete! To move on to Step 2 (Data Engineering), do you want me to generate the SQL code to create your database tables, or guide you through creating the 10,000 rows of fake payment data on Mockaroo?
+Use code with caution.
